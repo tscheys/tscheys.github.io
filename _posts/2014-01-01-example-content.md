@@ -1,121 +1,46 @@
 ---
 layout: post
-title: Example content
+title: Resource list for the succesful Javascript beginner
 ---
-
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Learning a new programming language can be overwhelming. In the case of Javascript, there is a tremendous amount of blogs, articles written about every single aspect of it. Not all content is good. There are a lot of ways to dive head first into this content. When I started learning the language I trusted upon some less than stellar websites. (Steady but slowly ) I have amassed a list of excellent resources, a list I would have wanted when first starting to learn Javascript. It would have saved me a tremedous amount of time.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Instead of learning the right things, I made these mistakes:
+- Dive head first into JQuery without having a basic understanding of javascript
+- Not learning about the more dry CS topics: data structures, algorithms. You might think you don’t need this knowledge for building a great product, you might be right. Indirectly it will hinder you in writing concise, elegant code resulting in fewer lines of code, fewer errors, less time debugging,...
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+##Eloquent javascript
+A free online book intended for beginners (chapters 1 - 4). Starting from chapter 5 the difficulty rises, but is managable for beginners and intermediate codes alike. 
+[Link](http://eloquentjavascript.net/)
 
-## Inline HTML elements
+##Codeschool 
+Walks you through the basic concepts of the language by making you complete levels and collect points for your correct solutions. A fun gamification approach to coding. 
+[Link](https://www.codecademy.com/)
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+##MDN Mozilla 
+The best documentation out there on Javascript. Everythimg from the very [basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types) to the most [difficult concepts](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) are covered
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+##Devdocs 
+Ideal if you are looking at different documentation websites for a project. Devdocs bundles all documentation in one place. 
+[Link](http://devdocs.io/)
 
-Most of these elements are styled by browsers with few modifications on our part.
+##JS Bin
+Start writing your own code while you are going through the above resources by playing around in an online javascript environment. Enable the Javascript and Console pane and start coding! 
+[Link](http://jsbin.com/?js,console)
 
-## Heading
+##The Command Line Crash Course
+The terminal can be a scary place. You might fuck up you whole computer. You might also speed up your coding workflow by a tenfold. Follow these small lessons as a forceful way to break through your fear of the Terminal. 
+[Link](http://cli.learncodethehardway.org/book/)
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+##GitImmersion
+Once you are confident enough in a terminal window it’s time for you to learn git. It looks scary and it can be just that. Everybody struggles with it, it’s comforting you are not alone in this struggle. It is good to learn git even when you are working solo. It will allow you to store multiple versions of your project. This way you can explore multiple ideas at once without ruining all your previous code. 
+[Link](http://gitimmersion.com/lab_01.html)
 
-### Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-{% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-### Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 -----
 
