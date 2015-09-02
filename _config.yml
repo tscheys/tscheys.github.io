@@ -9,7 +9,7 @@ title:               tscheys
 tagline:             'Software Engineer'
 description:         ''
 url:                 
-baseurl:             'http://tscheys.github.io/posts'
+baseurl:             'http://tscheys.github.io'
 paginate:            5
 
 # About/contact
