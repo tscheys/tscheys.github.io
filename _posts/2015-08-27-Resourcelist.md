@@ -6,8 +6,8 @@ title: A Learning Repository for the Succesful Javascript Beginner
 Learning Javacript can be overwhelming. To make matters worse, **the majority of the content you will find is not up to par**. I used to rely on such resources a lot. Therefore I provide you, *the novice* with a list. A list I wish I had when first starting out.
 
 Instead of learning the thing on this list, **I made these mistakes**:
-- Diving head first into JQuery without having a basic understanding of Javascript itself.
-- Not learning about the more dry CS topics: data structures, algorithms. (Hint: These concepts will indirectly help you write better code)
+  + Diving head first into JQuery without having a basic understanding of Javascript itself.
+  + Not learning about the more dry CS topics: data structures, algorithms. (Hint: These concepts will indirectly        help you write better code)
 
 ##Eloquent javascript
 A free online book intended for beginners (chapters 1 - 4). From chapter 5 and on, the difficulty rises, but is managable for beginners and intermediate codes alike. 
