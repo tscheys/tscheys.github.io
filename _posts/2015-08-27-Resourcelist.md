@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Learning Repository for the Succesful Javascript Beginner
+title: A Learning Repository for the Successful Javascript Beginner
 ---
 
 Learning Javacript can be overwhelming. To make matters worse, **the majority of the content you will find is not up to par**. I used to rely on such resources a lot. Therefore I provide you, *the novice* with a list. A list I wish I had when first starting out.
