@@ -19,7 +19,7 @@ Walks you through the basic concepts of the language by making you complete leve
 [Play some levels learning code here](https://www.codecademy.com/)
 
 ##MDN Mozilla 
-The best documentation out there on Javascript. Everythimg from the very [basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types) to the most [difficult concepts](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) are covered
+The best documentation out there on Javascript. Everything from the very [basics](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types) to the most [difficult concepts](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) are covered.
 [Dive into the MDN Mozilla Docs here](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ##Devdocs 
