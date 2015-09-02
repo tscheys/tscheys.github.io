@@ -8,8 +8,8 @@ relative_permalinks: true
 title:               tscheys
 tagline:             'Software Engineer'
 description:         ''
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+url:                 tscheys.github.io
+baseurl:             'tscheys.github.io'
 paginate:            5
 
 # About/contact
