@@ -5,10 +5,10 @@ title: About
 
 ##Tim Scheys
 
-- Business Engineering Student at [UGent](www.ugent.be)
-- Software Engineering Student at [HackReactor](www.hackreactor.com)
+- Business Engineering Student at [UGent](http://www.ugent.be/)
+- Software Engineering Student at [HackReactor](http://www.hackreactor.com/)
 
 Location: Ghent, Belgium / San Francisco
 
-Contact: tim.scheys@gmail.com
+Contact me at <tim.scheys@gmail.com>
 
