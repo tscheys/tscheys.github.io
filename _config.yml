@@ -9,7 +9,7 @@ title:               tscheys
 tagline:             'Software Engineer'
 description:         ''
 url:                 http://lanyon.getpoole.com
-baseurl:             'http://tscheys.github.io/'
+baseurl:             'http://tscheys.github.io/poole'
 paginate:            5
 
 # About/contact
