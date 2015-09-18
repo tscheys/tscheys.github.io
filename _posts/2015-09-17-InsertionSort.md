@@ -7,28 +7,28 @@ title: A verbose walkthrough of the insertion sort algorithm
 [**InsertionSort**](https://en.wikipedia.org/wiki/Insertion_sort) is a simple sorting algorithm that builds a sorted list of numbers one value at a time. It iterates through the list of values, while growing the sorted portion of the array behind the current value. For every value it looks at the sorted portion of the array, and swaps values until the current value is correctly placed in the sorted portion. 
 
 **Important notes**: 
-*  There is only one focal object: the input list.
-*  We do not copy over to a new, sorted array.
-*  It does not alter the position of equal values (this principle is referred to as a *stable sort*)
-** We will sort in *ascending* order. So in our example [3,2,1,3,8] the first three will always be put before the second three after the insertion sort happened.
+-  There is only one focal object: the input list.
+-  We do not copy over to a new, sorted array.
+-  It does not alter the position of equal values (this principle is referred to as a *stable sort*)
+-  We will sort in *ascending* order. So in our example [3,2,1,3,8] the first three will always be put before the second three after the insertion sort happened.
 
 ##Step by step explanation of the algorithm
 
 -  [3,2,1,3,8] Our input
 -  [1,2,3,3,8] Desired Output
 -  [**3**,2,1,3,8] Iteration one
--  [3,**2**,1,3,8] Iteration two 
--    [3,**2**] Inside iteration 2
--    [**2**,3] Swap the values
--    Stop
--  [2,3,**1**,3,8] Iteration three
--    [3,**1**] Inside iteration three
--    [**1**,3] Swap the values
--    [2,**1**,3,3,8] Inside iteration
--    [2,**1**] Inside iteration three
--    [**1**,2] Swap the values
--  [1,2,3,**3**,8] Iteration 4
--  [1,2,3,3,**8**] Iteration 5
+-  [*3*,**2**,1,3,8] Iteration two 
+  -  [3,**2**] Inside iteration 2
+  -  [**2**,3] Swap the values
+  -  Stop
+-  [*2*,*3*,**1**,3,8] Iteration three
+  -  [*3*,**1**] Inside iteration three
+  -  [**1**,3] Swap the values
+  -  [*2*,**1**,3,3,8] Inside iteration
+  -  [*2*,**1**] Inside iteration three
+  -  [**1**,2] Swap the values
+-  [*1*,*2*,*3*,**3**,8] Iteration 4
+-  [*1*,*2*,*3*,*3*,**8**] Iteration 5
   
 
 ##Walkthrough
