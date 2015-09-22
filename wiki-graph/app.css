@@ -1,0 +1,24 @@
+#content {
+  display: none;
+}
+body {
+  margin: auto;
+  width: 60%;
+}
+#display {
+  width: 800px;
+  height: 1000px;
+}
+span {
+  position: relative;
+  margin-left: 400px;
+  margin-bottom: 20px;
+  width: 10%;
+}
+#wrapper {
+  width: 100%;
+}
+#title {
+  margin:0 auto;
+  width:30%;
+}
