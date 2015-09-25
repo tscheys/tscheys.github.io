@@ -6,7 +6,8 @@ title: A verbose walkthrough of the insertion sort algorithm
 
 [**InsertionSort**](https://en.wikipedia.org/wiki/Insertion_sort) is a simple sorting algorithm that builds a sorted list of numbers one value at a time. It iterates through the list of values, while growing the sorted portion of the array behind the current value. For every value it looks at the sorted portion of the array, and swaps values until the current value is correctly placed in the sorted portion. 
 
-**Important notes**: 
+**Important notes**:
+ 
 -  There is only one focal object: the input list.
 -  We do not copy over to a new, sorted array.
 -  It does not alter the position of equal values (this principle is referred to as a *stable sort*)
