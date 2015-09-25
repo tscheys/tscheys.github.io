@@ -7,11 +7,11 @@ title: A verbose walkthrough of the insertion sort algorithm
 [**InsertionSort**](https://en.wikipedia.org/wiki/Insertion_sort) is a simple sorting algorithm that builds a sorted list of numbers one value at a time. It iterates through the list of values, while growing the sorted portion of the array behind the current value. For every value it looks at the sorted portion of the array, and swaps values until the current value is correctly placed in the sorted portion. 
 
 **Important notes**:
- 
--  There is only one focal object: the input list.
--  We do not copy over to a new, sorted array.
--  It does not alter the position of equal values (this principle is referred to as a *stable sort*)
--  We will sort in *ascending* order. So in our example [3,2,1,3,8] the first three will always be put before the second three after the insertion sort happened.
+
+1.  There is only one focal object: the input list.
+2.  We do not copy over to a new, sorted array.
+3.  It does not alter the position of equal values (this principle is referred to as a *stable sort*)
+4.  We will sort in *ascending* order. So in our example [3,2,1,3,8] the first three will always be put before the second three after the insertion sort happened.
 
 ##Step by step explanation of the algorithm
 
