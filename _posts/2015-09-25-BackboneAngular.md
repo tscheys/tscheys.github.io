@@ -7,11 +7,7 @@ title: Angular versus Backbone in lines of code
 In this post we will do a quick comparison of how many lines of code you are 
 actually importing into your project when adding a framework. 
 
-Running
-    bower install angular 
-or 
-    bower install backbone 
-is just a few keystrokes away. Sometimes 
+Running ```bower install angular``` or ```bower install backbone``` is just a few keystrokes away. Sometimes 
 you do not realize how this effects the performance of your app. Seeing how big these frameworks 
 are in terms of size/lines of code makes you ask yourself the question: do we really need it?
 
