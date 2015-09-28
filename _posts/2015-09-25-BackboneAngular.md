@@ -22,7 +22,7 @@ you to also install Underscore and JQuery.
 - JQuery: 9000
 - Underscore: 1500
 
-So this makes the whole Backbone framework weign in at about:
+So this makes the whole Backbone framework weigh in at about:
 
 - Backbone: 1900 + 9000 (JQuery) + 1500 (Underscore) = 12400 lines of code
 
