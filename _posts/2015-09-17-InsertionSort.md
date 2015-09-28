@@ -72,12 +72,14 @@ For those of you that want to turn this algorithm into code, **while** is the wo
 
 ###Swap every time 
 for each value in the list at a certain index i, starting at index 1
-```javascript
-  while(list[i - 1] > list[i])
+{% highlight javascript %}
+var insertionSort = function() {
+   while(list[i - 1] > list[i])
     var current = list[i]
     list[i] = list[i - 1]
     list[i - 1] = current
-```
+}
+{% endhighlight %}
 
 ###Swap only once 
 for each value in the list at a certain index i, starting at index 1
