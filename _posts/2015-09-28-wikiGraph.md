@@ -3,7 +3,6 @@ layout: post
 title: Wikigraph
 ---
 ##Backstory:
-<<<<<<< HEAD
 I made this website during my time at [Hackreactor](www.hackreactor.com) in 
 a two day solo sprint. I wanted to make something that gives you a higher order view 
 of how different Wikipedia pages are linked together. Since I only had two days, I had to zone in to a particular type of page. I've always had a hard time visualizing the link between monarchs and their successors/predecessors. So that is exactly what I have built!
