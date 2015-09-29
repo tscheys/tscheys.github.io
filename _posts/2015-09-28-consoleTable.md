@@ -3,7 +3,8 @@ layout: post
 title: Use console.table()
 ---
 ##Use `console.table` to print **nested** objects and arrays to the console. 
-{% highlight javascript %}
+
+```
 var me = [
   {
   firstname: "Tim",
@@ -26,7 +27,7 @@ var fruits = [
 ];
 console.log(fruits);
 console.table(fruits);
-{% endhighlight %}
+```
 The above code will result in the following console messages: 
 ![console.table() statements](https://tscheys.github.io/images/consoleStatements.png)
 
