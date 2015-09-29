@@ -28,7 +28,7 @@ console.log(fruits);
 console.table(fruits);
 {% endhighlight %}
 The above code will result in the following console messages: 
-[logo]: tscheys.github.io/images/consoleStatements.png "console statements"
+![console.table() statements](tscheys.github.io/images/consoleStatements.png)
 
 As you can see this is approximately 100 times better than a standard `console.log`
 
