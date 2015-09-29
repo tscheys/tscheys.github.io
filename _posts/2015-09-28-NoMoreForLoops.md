@@ -6,6 +6,7 @@ title: Stop writing for loops
 
 ###Example:
 {% highlight javascript %}
+
 var numbers = [1,9,9,2];
 for(var i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
