@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Protip: use console.table for debugging
+title: console.table()
 ---
 ##Use `console.table` to print **nested** objects and arrays to the console. 
 {% highlight javascript %}
