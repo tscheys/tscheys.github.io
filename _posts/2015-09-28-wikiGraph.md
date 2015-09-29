@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wiki-graph (An MVP project)
+title: Wiki-graph
 ---
 ##Backstory:
 I made this website during my time at [hackreactor](www.hackreactor.com) during 
