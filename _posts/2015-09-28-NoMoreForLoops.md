@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Protip: Stop writing for loops
+title: Stop writing for loops
 ---
 ##Use the native forEach function instead.
 ###Example:

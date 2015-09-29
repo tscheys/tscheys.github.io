@@ -1,6 +1,6 @@
 ---
 layout: post
-title: console.table()
+title: Use console.table()
 ---
 ##Use `console.table` to print **nested** objects and arrays to the console. 
 {% highlight javascript %}
