@@ -11,6 +11,7 @@ description:         ''
 url:                 
 baseurl:             'http://tscheys.github.io'
 paginate:            5
+highlighter:         pygments
 
 # About/contact
 author:
