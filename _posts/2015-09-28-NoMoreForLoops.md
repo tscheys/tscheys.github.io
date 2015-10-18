@@ -20,5 +20,5 @@ numbers.forEach(function(value, index, array) {
 });
 {% endhighlight %}
 ###Advantages:
-1. `.forEach()` is easier to understand for somebody who is not a coder.
-2. Faster to type for yourself.
+1. `.forEach()` is easier to understand for a noncoder.
+2. Faster to type.

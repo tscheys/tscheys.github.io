@@ -1,15 +1,12 @@
 ---
 layout: post
-title: Wikigraph
+title: Personal Project: Wikigraph
 ---
-##Backstory:
-I made this website during my time at [Hackreactor](www.hackreactor.com) in 
-a two day solo sprint. I wanted to make something that gives you a higher order view 
-of how different Wikipedia pages are linked together. Since I only had two days, I had to zone in to a particular type of page. I've always had a hard time visualizing the link between monarchs and their successors/predecessors. So that is exactly what I have built!
+I wanted to make something that gives you a higher order view 
+of how different Wikipedia pages are linked together. I made this website during my time at [Hackreactor](www.hackreactor.com). Since I only had two days, I had to zone in on a particular type of page. Since I've always had a hard time visualizing the link between monarchs and their successors, that is exactly what I built!
 
-##Type in "Henry VIII" on [Wikigraph](https://tscheys.github.io/wiki-graph)
+##Type in "Henry VIII" on [Wikigraph](https://tscheys.github.io/wiki-graph):
 
-##And you get something like this: 
 ![wiki-graph](https://tscheys.github.io/images/wikiGraph.png)
 
 ##How it works (Wikipedia API + JQuery + d3):

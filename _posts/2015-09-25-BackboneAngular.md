@@ -13,23 +13,23 @@ are in terms of size/lines of code makes you ask yourself the question: do we re
 
 ##Number of lines 
 
-- Angular: > 20000
-- Backbone: 1900
+- Angular: > 20.000
+- Backbone: 1.900
 
 This is a comparison you might have seen. In my opinion this is not a fair assessment. Backbone requires
 you to also install Underscore and JQuery.
 
-- JQuery: 9000
-- Underscore: 1500
+- JQuery: 9.000
+- Underscore: 1.500
 
 So this makes the whole Backbone framework weigh in at about:
 
-- Backbone: 1900 + 9000 (JQuery) + 1500 (Underscore) = 12400 lines of code
+- Backbone: 1.900 + 9.000 (JQuery) + 1.500 (Underscore) = 12.400 lines of code
 
 In summary we get a more fair comparison with:
 
-- Angular: > 20000
-- Backbone: 12400
+- Angular: > 20.000
+- Backbone: 12.400
 
 It is fair to say that Backbone is about half the size of Angular.
 
