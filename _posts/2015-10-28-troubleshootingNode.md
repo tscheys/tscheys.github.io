@@ -8,9 +8,13 @@ This post is mainly a  non-exhaustive list of things that could go wrong when yo
 
 In most cases, services like Heroku will make you use a specific port. And in most cases it is
 not 8080, 8000 or 3000. This can be taken into account in just one line of code: 
-`var port = 8080;`
+{% highlight javascript %}
+var port = 8080;
+{% endhighlight %}
 becomes
-`var port = process.env.PORT || 8080;`
+{% highlight javascript %}
+var port = process.env.PORT || 8080;
+{% endhighlight %}
 The process.env.PORT will ensure that the correct port will be set when we deploy. 
 
 ##2. Your local npm and node versions are different from those installed on the server
@@ -61,6 +65,8 @@ Easiest way to ensure that your server actually executes your server code is to 
 {% endhighlight %}
 
 ##6. A word of encouragement
+
+<iframe src="//giphy.com/embed/RKpZGrXAccvTi?html5=true" width="480" height="514" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/boy-crying-RKpZGrXAccvTi">via GIPHY</a></p>
 
 You are not alone in your suffering. Deployment is HARD. You will probably waste multiple hours on minor issues that do not learn you a lot about deployment. Everybody who learns this stuff has a HARD time at first. 
 
