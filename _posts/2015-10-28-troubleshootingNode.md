@@ -17,10 +17,12 @@ The process.env.PORT will ensure that the correct port will be set when we deplo
 
 To force the server to install the versions you want you can add the following to your `package.json`: 
 
-`"engines": {
+{% highlight javascript %}
+"engines": {
     "node": "0.12.7",
     "npm": "2.14.2"
-  }`
+  }
+{% endhighlight %}
 
 These are the versions that I want to install on the server, because these are the ones I use locally. 
 
@@ -36,6 +38,7 @@ A lot of deployment services make you push to a remote to deploy. This one took 
 
 Your app should be scaffolded like so: 
 
+{% highlight javascript %}
 App
 --Server
 ----Public
@@ -43,6 +46,7 @@ App
 ------css
 ------img
 ----index.js
+{% endhighlight %}
 
 Where index.js is the script that starts up your server. 
 
@@ -50,9 +54,11 @@ Where index.js is the script that starts up your server.
 
 Easiest way to ensure that your server actually executes your server code is to include the following in your package.json: 
 
-`"scripts": {
+{% highlight javascript %}
+"scripts": {
   "start": "node server/index.js" 
-  }`
+  }
+{% endhighlight %}
 
 ##6. A word of encouragement
 
