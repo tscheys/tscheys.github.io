@@ -66,7 +66,7 @@ Easiest way to ensure that your server actually executes your server code is to 
 
 ##6. A word of encouragement
 
-<iframe src="//giphy.com/embed/RKpZGrXAccvTi?html5=true" width="480" height="514" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/boy-crying-RKpZGrXAccvTi">via GIPHY</a></p>
+<iframe src="//giphy.com/embed/RKpZGrXAccvTi?html5=true" width="240" height="257" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/boy-crying-RKpZGrXAccvTi">via GIPHY</a></p>
 
 You are not alone in your suffering. Deployment is HARD. You will probably waste multiple hours on minor issues that do not learn you a lot about deployment. Everybody who learns this stuff has a HARD time at first. 
 
